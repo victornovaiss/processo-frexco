@@ -1,0 +1,23 @@
+{
+    "usuarios":[
+        {
+            "email":"victor.noovais@gmail.com",
+            "senha":"pipoca123",
+            "meusEstoques":[]
+        }
+    ],
+    "estoques":[
+        {
+            "nomeDoEstoque":"Estoque de Pera",
+            "cod":"1",
+            "usuario":"victor.noovais@gmail.com",
+            "produtos":[]
+        },
+        {
+            "nomeDoEstoque":"Estoque de maçã",
+            "cod":"2",
+            "usuario":"victor.noovais@gmail.com",
+            "produtos":[]
+        }
+    ]
+}

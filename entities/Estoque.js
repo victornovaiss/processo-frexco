@@ -1,16 +1,10 @@
 export class Estoque{
    
-    constructor(nomeDoEstque,usuario, produtos = []){
+    constructor(cod,nomeDoEstque,usuario, produtos = []){
+        this.cod = cod
         this.nomeDoEstoque = nomeDoEstque
         this.usuario = usuario
         this.produtos = produtos
     }
 
-    QtdEmEstoque(){
-        return this.produtos.length
-    }
-
-    produtosDisponiveis(){
-        return this.produtos
-    }
 }
